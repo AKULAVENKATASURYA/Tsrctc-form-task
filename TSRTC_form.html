@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TSRTC Bus Pass Application</title>
+</head>
+<body>
+<form action="submit.html"></form>
+    <center>
+        <img src="./Screenshot 2025-08-25 103523.png" width="700" alt="">
+         <br>
+        <!-- Applicant Details -->
+        <fieldset style="width: 40px;">
+            <legend><b>Applicant Details</b></legend>
+            <table border="0" cellpadding="5" cellspacing="0" width="600">
+                <tr>
+                    <td>Name *</td>
+                    <td><input type="text" maxlength="20"><br><small>(Maximum characters: 20)</small></td>
+                    <td>Father's / Guardian's Name *</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Date of birth *<br><small>(dd/mm/yyyy)</small></td>
+                    <td><input type="text"></td>
+                    <td>Gender *</td>
+                    <td>
+                        <input type="radio" name="gender">Female 
+                        <input type="radio" name="gender">Male
+                    </td>
+                </tr>
+                <tr>
+                    <td>Age As on :</td>
+                    <td>
+                        <input type="text" size="3"> Year(s)
+                        <input type="text" size="3"> Month(s)
+                        <input type="text" size="3"> Day(s)
+                    </td>
+                    <td>Aadhaar No:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>WhatsApp No *</td>
+                    <td><input type="text"></td>
+                    <td>E-mail Id *</td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td>Photo *</td>
+                    <td colspan="3"><input type="file"></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <br>
+
+        <!-- Residential Address Details -->
+        <fieldset style="width: 40%;">
+            <legend><b>Residential Address Details</b></legend>
+            <table border="0" cellpadding="5" cellspacing="0" width="600">
+                <tr>
+                    <td>Applicant's Address *</td>
+                    <td colspan="3">
+                        <textarea maxlength="20"></textarea><br>
+                        <small>(Maximum characters: 20)<br>You have 20 characters left.</small>
+                    </td>
+                </tr>
+                <tr>
+                    <td>District *</td>
+                    <td>
+                        <select>
+                            <option>HYDERABAD</option>
+                        </select>
+                    </td>
+                    <td>Mandal *</td>
+                    <td>
+                        <select>
+                            <option>HYDERABAD</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Village *</td>
+                    <td>
+                        <select>
+                            <option>HYDERABAD</option>
+                        </select>
+                    </td>
+                    <td>Pincode</td>
+                    <td><input type="text"></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <br>
+        
+    </form>
+</center>
+    <center>
+         <fieldset style="width: 40%;">
+            <legend><b>Pass Type Details</b></legend>
+        <table border="0" cellpadding="5" cellspacing="0" width="600" align="center">
+        <tr>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td>City *</td>
+            <td>
+                <select>
+                    <option>Hyderabad</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Pass Type *</td>
+            <td>
+                <select>
+                    <option>-----Select-----</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+    </fieldset>
+    </center>
+        <center>
+            <fieldset style="width: 40%;">
+            <legend><b>Payment Mode</b></legend>
+        <table border="0" cellpadding="5" cellspacing="0" width="600" align="center">
+        <tr>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td>Payment Mode *</td>
+            <td>
+                <select>
+                    <option>Select Payment Mode</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Pass Delivery Mode *</td>
+            <td>
+                <select>
+                    <option>Select Pass Delivery Mode</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Center at which you want to Collect Pass *</td>
+            <td>
+                <select>
+                    <option>-----Select-----</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+   </center>
+   <center>
+    <br>
+    <br>
+    <img src="./Screenshot 2025-08-25 103545.png" alt="">
+    <br>
+    <br>
+    <input type="text">
+    <br>
+    <br>
+    <input type="submit">
+   </center>
+</form>
+</body>
+</html>
